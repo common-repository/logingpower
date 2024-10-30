@@ -1,0 +1,56 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+/*body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}*/
+.wrap{
+  background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px 0;
+    width: 100%;
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 11.11%;
+/*   width: auto;*/
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+/*  color: white;*/
+color: #000;
+  display: none;
+  padding: 20px 20px;
+  height: auto;
+}
+
+#Login {background-color:pink;}
+#Loginsection {background-color:lightgreen;}
+#Loginlogo {background-color:#d9e8f7;}
+#Loginmessage {background-color:orange;}
+#Loginform {background-color:#F99A98;}
+#Lostpassword {background-color:lightgreen;}
+#Templates {background-color:pink;}
+#Langswitcher {background-color:#B6C7D8;}
+#Settings {background-color:orange;}

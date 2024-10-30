@@ -1,0 +1,32 @@
+
+/*Leaf Template */
+
+
+	body {  
+		background-color:#e3ccc2!important;
+		background-image:url( '../imgs/loginpage_bgbagh.jpg' )!important;
+		background-position: center top !important;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important; 
+		background-size:100%  100% !important;
+	}
+	body.login div#login{
+		margin:0 0 0 auto;
+		background-color:#e3ccc2;
+	}
+	body.login div#login form#loginform {
+		border-width: 10px;
+		border-style: dotted;
+		border-color:#e31621 ;
+		border-radius:75px 0px;
+		background-color:#f8778d ;
+
+	}
+	body.login div#login form#loginform input#user_login,
+	body.login div#login form#loginform input#user_pass,
+	body.login div#login form#loginform p.submit input#wp-submit{
+		border-radius:50px 0px;
+	}
+		
+
+ 
